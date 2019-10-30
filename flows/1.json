@@ -1,0 +1,63 @@
+[
+    {
+        "id": "f14ddfa2.478bd",
+        "type": "ui_chart",
+        "z": "65ddf578.ac431c",
+        "name": "",
+        "group": "f48b0380.c03b6",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f48b0380.c03b6",
+        "type": "ui_group",
+        "z": "",
+        "name": "Strona",
+        "tab": "9b66df67.a3f5d",
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "9b66df67.a3f5d",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
